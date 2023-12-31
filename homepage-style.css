@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url(/images/hback.jpg);
+    
+    
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0;
+    box-shadow: 0 0 10px rgba(1,1,1,1);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+   
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li:hover {
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.topposter{
+    display: flex;
+    flex-direction: column;
+}
+
+.poster1 ,.poster3{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.poster2,.poster4 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.poster3,.poster5 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.poster1:hover,.poster2:hover,
+.poster3:hover,.poster4:hover,
+.poster5:hover,.poster6:hover{
+    cursor: pointer;
+}
+#homelogo{
+    position: absolute;
+    left: 5%;
+    width: 100px;
+    top: 2%;
+}
+
+#homelogo{
+    cursor: pointer;
+}
+
+.mens_clothing,.home_decor,
+.gadgets,.appliances,
+.accessories,.household,.explore{
+    background-color: #fff;
+    /* padding: 20px; */
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 200px;;
+    margin-left: 70px;
+    overflow: hidden;
+    
+    
+}
+.mens_clothing:hover,.home_decor:hover,
+.gadgets:hover,.appliances:hover,
+.accessories:hover,.household:hover,.explore:hover{
+    background-color: #dcdada;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 200px;
+    margin-left: 70px;
+    overflow: hidden;
+    cursor: pointer;
+    
+    
+}
+.container,.container2{
+    display: flex;
+}
+
+.downposter{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.button {
+    background-color: #f02727;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: fit-content;
+    margin: 5px;
+    border: #873838;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.button:hover{
+    background-color: #4ec03f;
+}
+
+.search{
+    background-color: #e3dddd;
+    color: #7e7b7b;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    background-image: url(/images/search.jpeg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 2%;
+    background-position: 90%;
+    position: absolute;
+    right: 15px;
+    top: 39px;
+}
+
+.search:hover {
+    background-color: #c5c4c4;
+}
+
+.lane{
+    background-color: #e7e7e7;
+    border: #ffffff;
+    height: fit-content;
+    width: auto;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    
+}
+.image1,.image2,.image3,
+.image4,.image5,.image6{
+    height: 100%;
+    width: 100%;
+}
+#mcloth,#hdec,#gad,#appl,#access,#hh,#more{
+    border-radius: 30%;
+    object-fit: cover;
+    width: 200px;
+    
+}
+#mcloth:hover,#hdec:hover,#gad:hover,
+#appl:hover,#access:hover,#hh:hover,#more:hover{
+    background-color: #dcdada;
+    
+}
+.products{
+    height: 250px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 5px;
+    /* height: 15%; */
+    
+}
+
+.products{
+    cursor: pointer;
+}

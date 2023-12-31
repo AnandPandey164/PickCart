@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PickCart</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+    <header>
+        <img src="\images\logo.jpeg" alt="logo" srcset="" id="homelogo">
+        <img src="\images\pp.webp" alt="logo" srcset="" id="pp">
+        <nav>
+            <ul>
+                <li><a href="home.html" id="home" title="Home Page">Home</a></li>
+                <li>|</li>
+                <li><a href="index.html" id="signin" title="Sign in Page">Sign In</a></li>
+                <li>|</li>
+                <li><a href="signup.html" id="signup" title="Sign Up Page">Sign Up</a></li>
+                <li>|</li>
+                <li><a href="mens_clothing.html" id="mens_clothing" title="Men's Clothing">Men's Clothing</a></li>
+                <li>|</li>
+                <li><a href="home_decor.html" id="home_decor" title="Home Decor">Home Decor</a></li>
+                <li>|</li>
+                <li><a href="gadgets.html" id="gadgets" title="Gadgets">Gadgets</a></li>
+                <li>|</li>
+                <li><a href="appliances.html" id="appliances" title="Appliances">Appliances</a></li>
+                <li>|</li>
+                <li><a href="accessories.html" id="accessories" title="Accessories">Accessories</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="welcome-heading">Welcome to PickCart!</h1>
+        <p id="description">Here you can find a wide range of products to suit your needs.</p>
+        <div class="poster" id="poster-container">
+            <img src="\images\s5.png" alt="" height="50" class="poster-img">
+            <img src="\images\s6.jpg" alt="1" height="50" class="poster-img">
+            <img src="\images\s2.jpg" alt="2" height="50" class="poster-img">
+            <img src="\images\s4.jpg" alt="3" height="50" class="poster-img">
+            <img src="\images\s3.jpg" alt="4" height="50" class="poster-img">
+            <img src="\images\s7.webp" alt="5" height="50" class="poster-img">
+        </div>
+        <div class="vlm">
+            <video src="/images/video.mp4" autoplay id="video"></video>
+        <center id="login-menu">
+            <div id="box">
+                <img src="\images\logo.jpeg" alt="company logo" height="50" id="company-logo">
+                <br><br>
+                Welcome Back!
+                <form action="\home.html" method="get" id="login-form">
+                    <br>
+                    Username:<br>
+                    <input type="text" name="username" placeholder="Enter your Username" title="" id="username-input" required>
+                    <br>
+                    Password:<br>
+                    <input type="password" name="password"  placeholder="Enter your password" title="Never Share your Password" id="password-input" required>
+                    <br>
+                    <a href="\forgotpassword.html" id="forgot-password-link">Forgot Your Password?</a>
+                    <br><br>
+                    <button id="login-button">Login</button>
+                </form>
+                <br><br>
+                <form action="\signup.html" method="get">
+                    <button id="signup-button">
+                        <img src="\images\su.png" alt="signupicon" height="25">
+                        New User!
+                    </button>
+                </form>
+            </div>
+        </center>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>© 2023 E-commerce Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
